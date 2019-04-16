@@ -1,0 +1,104 @@
+*
+{
+  text-align: center;
+ background-color: rgba(177, 154, 86, 0.49);
+}
+@font-face {
+  font-family:lifecraft;
+  src:url(./../fonts/LifeCraft_Font.ttf);
+}
+#wow{
+  font-style: normal;
+  font-family: lifecraft;
+  font-size: 200%;
+  color:white;
+  background-color: black;
+  padding:20px;
+}
+#Georgia{
+  font-family: Georgia;
+  font-style: 10px;
+}
+
+#TimesNewRoman, #Times{
+  font-family: "Times New Roman";
+}
+
+.bezszeryfowa{
+  font-family: arial, verdana;
+}
+
+#helvetica
+{
+  font-family: helvetica;
+  font-size: 200%;
+}
+p{
+  font-size: 200%
+}
+
+#normalna{
+  font-weight: normal;
+}
+#pogrubiona{
+  font-weight: bold;
+}
+#normalna_{
+  font-style: normal;
+}
+#Kursywa{
+  font-style: italic;
+}
+#pochylona{
+  font-style: oblique;
+}
+h1
+{
+  text-transform: uppercase;
+}
+.firstupper{
+  text-transform: capitalize;
+  color: rgb(180, 9, 249);
+}
+
+#normalny{
+  text-decoration: none;
+}
+#podkreślony{
+  text-decoration: underline;
+}
+#linia{
+  text-decoration: overline;
+
+}
+#przekreślenie{
+  text-decoration: line-through;
+
+
+}
+
+#normalny, #podkreślony, #linia, #przekreślenie
+{
+  line-height: 1em;
+}
+
+#odleglosci{
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+}
+#wyrownanie
+{
+  text-align: left;
+}
+#prawy{
+  text-align: right;
+}
+#justowany{
+text-align: justify ;
+
+}
+#gora{
+
+  text-align: left;
+  padding-top: 90%;
+}

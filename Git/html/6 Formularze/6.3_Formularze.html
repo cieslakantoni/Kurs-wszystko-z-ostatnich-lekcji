@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta charset="utf-8">
+      <title> Opinie o filmie</title>
+</head>
+
+<body>
+    
+<h4>Opinie o filmie</h4>
+    <form method="post">
+
+        <textarea cols="40" rows="10" name="komentarz">Wpisz swój komentarz...</textarea><br>
+        <textarea placeholder="Opisz siebie w trzech zdaniach" name="opis siebie"></textarea>
+        <br>Wybierz ulubiony rodzaj filmu.<br><br>
+        <input type="radio" name="ulubiony" value="h" checked>Horror    <br>   
+        <input type="radio" name="ulubiony" value="k">Komedia   <br> 
+        <input type="radio" name="ulubiony" value="w">Wojenne  <br>
+        <br><br>
+
+        Wybierz swoje ulubione kolory:<br>
+        <input type="checkbox" name="kolor" value="n" checked>Niebieski <br>
+        <input type="checkbox" name="kolor" value="z" >Zielony <br>
+        <input type="checkbox" name="kolor" value="ż" >Żółty <br>
+        <input type="checkbox" name="kolor" value="c" >Czerwony <br>
+        <br><br>
+        
+        Wybierz ulubionego aktora:
+        <select name="aktor">
+            <optgroup label="USA">
+                <option value="ss" selected>Sylvester Stallone</option>
+                <option value="as">Arnold Schwarzenegger</option>
+            </optgroup>
+            <optgroup label="Polska">
+                <option value="bs">Borys Szyc</option>
+            </optgroup>
+        </select><br><br>
+        <input type="file" name="muzyka">
+        <br><br>
+        
+        <input type="image" src="img/bialarusmini.png" alt="flaga bialorusi"><br><br>
+        <input type="hidden" name="id" value="janusz">
+                                                    
+        <input type="submit" name="button" value="Wyślij">
+                                                         
+    </form>
+
+
+
+
+
+
+</body>
+
+
+
+
+
+</html>

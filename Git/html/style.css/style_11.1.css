@@ -1,0 +1,38 @@
+body{
+  background-color: PINK;
+
+
+}
+
+div{
+margin-left: 10px;
+width: 350px;
+}
+div.containter{
+  float:left;
+  width: 500px;
+  height: 400px;
+}
+label{
+
+}
+input#imie{
+margin-left: 9px;
+}
+.tytul2{
+  margin-left: 60px;
+  float:left;
+}
+input{
+
+}
+input#email{
+  margin-left: auto;
+}
+table{
+
+}
+input#przycisk{
+  float:right;
+  margin-left: 120px;
+}

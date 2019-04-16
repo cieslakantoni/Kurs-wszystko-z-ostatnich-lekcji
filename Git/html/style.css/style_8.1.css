@@ -1,0 +1,30 @@
+body{
+
+    background: orange;
+    background-image: linear-gradient(to right top, #dc8648, #e89030, #ff8f04, #e48017, #ebae12);
+    color:rgb(51, 255, 0, 1);
+    text-shadow: 1px 1.5px 0px black;
+  }
+
+ol.blok{
+  display: block;
+  list-style-type:upper-roman;
+}
+
+ul{
+list-style-type: upper-alpha;
+padding-bottom: : 10px;
+}
+#kropka{
+  list-style-image: url(./../img/bialarusmini.png);
+}
+
+#kropka li{
+  margin: 10px;
+}
+#wciecie{
+  list-style-position: inside;
+}
+#drzewa{
+  list-style: inside;
+}

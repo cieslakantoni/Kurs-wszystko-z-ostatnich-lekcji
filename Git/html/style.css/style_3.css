@@ -1,0 +1,38 @@
+*{
+  color: darkorange;
+  text-align: center;
+  text-shadow: 1.5px 1px black;
+  font-family: fantasy;
+}
+
+body{
+  padding: 30%   ;
+  /*background-color:rgb(237,28,36);*/
+  background-color: darkgreen;
+}
+
+.strona{
+  border: 1px solid  darkorange;
+  background-color: rgba(191, 85, 17, 0.64);
+  padding: 20px;
+}
+
+h1{
+  color: darkcyan;
+  background-color: rgba(11, 10, 9, 0.5);
+}
+
+h2{
+  color:#d58a1b;
+  background-color: rgba(11, 10, 9, 0.5);
+
+}
+
+p, sup{
+  color: rgba(255, 0, 0, 0.5);
+  background-color: rgba(23, 18, 18, 0.5);
+}
+
+.trzypokoje{
+  background-color: hsl(30, 90%, 80%);
+}

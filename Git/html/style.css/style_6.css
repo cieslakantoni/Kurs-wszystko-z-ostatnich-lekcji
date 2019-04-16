@@ -1,0 +1,48 @@
+body{
+  display: block;
+  margin: 8px;
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  color: orange;
+  text-align: center;
+  text-shadow: 1px 1.5px 0px black;
+
+}
+div.box{
+  height: 300px;
+  width: 300px;
+}
+
+p{
+  height: 75%;
+  width: 75%;
+  text-align: center;
+}
+
+td.szerokosc{
+  background-color: #008793;
+  min-width: 400px;
+  min-height: 600px;
+  text-align: left;
+  margin: 0px;
+  padding:20px;
+}
+
+
+tr.sur{
+  border-bottom: solid 1px red;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  border-color: red;
+}
+p.jeden{
+  overflow: scroll;
+}
+p.dwa{
+  overflow: hidden;
+}
+div.pad{
+  height: auto;
+  width: auto;
+}

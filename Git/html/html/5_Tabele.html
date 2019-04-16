@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta charset="utf-8">
+      <title> Tabele</title>
+<link rel="stylesheet" href="style.css/style_table.css">
+</head>
+
+<body>
+
+  <table>
+    <tr>
+      <td><img src="img/flaga.png" width="150" height="100" alt="Polska"></td>
+      <td><img src="img/bialarus.png" width="150" height="100" alt="Białoruś"></td>
+    </tr>
+    <tr>
+      <td><img src="img/bialarus.png" width="150" height="100" alt="Białoruś"></td>
+      <td><img src="img/flaga.png" width="150" height="100" alt="Polska"></td>
+    </tr>
+
+  </table>
+   <!-- nagłówki -->
+  <table>
+  <tr>
+    <th>Imie</th>
+    <th>Nazwisko</th>
+    <th>Wiek</th>
+  </tr>
+  <tr>
+    <td>Agnieszka</td>
+    <td>Nowak</td>
+    <td>30</td>
+  </tr>
+
+
+  </table>
+
+
+  <table>
+  <tr>
+
+    <th></th>
+    <th scope="col">Nagłówek pierwszej kolumny</th>
+    <th scope="col">Nagłówek drugiej kolumny</th>
+  </tr>
+    <tr>
+      <th scope="row">Nagłówiek pierwszego wiersza</th>
+      <td>dane1</td>
+      <td>dane2</td>
+    </tr>
+
+    <tr>
+    <th scope="row">Nagłowek drugiego wiersza</th>
+      <td> dane3 </td>
+      <td> dane4 </td>
+    </tr>
+  </table>
+  <!--Łączenie kolumn  <th colspan="3"> </th>-->
+    <br>
+    <br>
+    <br>
+
+<table>
+<tr>
+
+    <th></th>
+    <th scope="col">Poniedziałek</th>
+    <th scope="col">Wtorek</th>
+    <th scope="col">Środa</th>
+  </tr>
+    <tr>
+      <th scope="row">15:00</th>
+      <td>Judo</td>
+      <td>Kido</td>
+      <td>Balet</td>
+    </tr>
+
+    <tr>
+      <th scope="row">16:00</th>
+      <td colspan="3"> Basen </td>
+    </tr>
+  <tr>
+          <th scope="row">17:00</th>
+     <td> KSW </td>
+     <td colspan="2"> Zapasy </td>
+  </tr>
+  </table>
+  <!--Łączenie wierszy-->
+  <hr>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+<table>
+  <tr>
+
+    <td>1 komórka!</td>
+    <td>2 komórka!</td>
+    <td>3 komórka!</td>
+  </tr>
+  <tr>
+    <td rowspan="2">4 komórka!</td>
+    <td>5 komórka!</td>
+    <td>6 komórka!</td>
+  </tr>
+  <tr>
+
+    <td>8 komórka!</td>
+    <td>9 komórka!</td>
+  </tr>
+
+</table>
+
+  <br>
+  <br>
+  <!-- Zadanko kolumn -->
+
+
+  <table>
+
+  <tr>
+    <th scope="col" colspan="5"> Header</th>
+  </tr>
+
+    <tr>
+      <th scope="row" rowspan="3">Left index</th>
+      <td colspan="2">text</td>
+      <td><img src="img/flaga.png" width="50" height="25" alt="Polska" title="Flaga"></td>
+      <td><img src="img/flaga.png" width="50" height="25" alt="Polska" title="Flaga"></td>
+    </tr>
+
+    <tr>
+      <td><img src="img/flaga.png" width="50" height="25" alt="Polska" title="Flaga"> </td>
+      <td  colspan="3">text</td>
+
+    </tr>
+
+  <tr>
+     <td colspan="4"> text </td>
+  </tr>
+
+
+</table>
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!--Długie tabele-->
+  <table>
+  <thead>
+    <tr>
+      <th>Zmienna a</th>
+      <th>Zmienna b</th>
+      <th>Suma</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>2</td>
+      <td>3</td>
+      <td>5</td>
+
+    </tr>
+    <tr>
+      <td>13</td>
+      <td>12</td>
+      <td>25</td>
+
+    </tr>
+    <tr>
+      <td>23</td>
+      <td>22</td>
+      <td>45</td>
+
+    </tr>
+  </tbody>
+
+  <tfoot>
+    <tr>
+      <td>39</td>
+      <td>36</td>
+      <td>75</td>
+    </tr>
+
+
+  </tfoot>
+
+
+
+  </table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

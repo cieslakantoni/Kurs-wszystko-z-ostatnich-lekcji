@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta charset="utf-8">
+      <title> Nietypowe formularze</title>
+</head>
+
+<body>
+
+    <form method="get">
+        Imie - <input type="text" name="imie"  autofocus autocomplete="off"><br> 
+        Liczby +0.10 - <input type="number" name="liczba" step="0.10">  <br>
+        Liczby +10 - <input type="number" name="liczba" step="10">  <br> <br>
+        Daty: <br>
+        Data - <input type="date" name="data"><br>
+        Czas - <input type="time" name="czas"><br>
+        Czas i Data - <input type="datetime"> <br>
+        Lokalny Czas i Data - <input type="datetime-local"> <br>
+        Tydzien - <input type="week"><br>
+        Miesiąc - <input type="month"><br><br>
+        Telefon:<br>
+        Telefon - <input type="tel"><br><br>
+        Kolor: <br>
+        Kolor - <input type="color"><br><br>
+        Zakres:<br>
+        Zakres - <input type="range" name="zakres" min="0" max="255"><br><br>
+
+        Lista:<br>
+        <label>Dzien tygodnia</label>
+            <input type="text" list="tydzien">
+        <datalist id="tydzien">
+            <option value="Poniedziałek"></option>
+            <option value="Wtorek"></option>
+            <option value="Środa"></option>
+            <option value="Czwartek"></option>
+            <option value="Piątek"></option>
+            <option value="Sobota "></option>
+            <option value="Niedziela"></option>
+        </datalist><br><br>
+        
+        Wyrażenie regularne:<br>
+        PESEL:
+        <input type="text" name="pesel"  pattern="[0-9]{1}$">
+        <br>
+        Kod pocztowy:
+        <input type="text" name="kod" placeholder="00-000"  pattern="^\d{2}-\d{3}$">
+        
+        <br>Adres IP:
+        <input type="text" name="IP" placeholder="Adress IP"  pattern="^\d{1,3}.\d{1,3}.\d{1,3}.\d{1,3}$">
+                
+        <br>
+        Telefon komórkowy:<br>
+        <input type="text" name="telefon" placeholder="000-000-000"  pattern="^\d{3}[ -]?\d{3}[ -]?\d{3}[ -]$">
+        
+        <br>
+        Hasło:<br>
+        <!-- Min 8 znaków,1 duża litera, 1 mała litera, cyfra -->
+        <input type="password" name="haslo" placeholder="Janusz@1"  pattern="(?=x*[A-Z])(?=x*[a-z])(?=x*\d).{8,}">
+
+        
+        
+        
+        
+        <!--<input type="submit" formtarget="_blank" value="Wyślij">
+            <input type="submit" formtarget="_blank" value="Wyślij">-->
+        <br><br><input type="submit" formtarget="_blank" formnovalidate value="Wyślij">
+        <br><br><input type="submit" formtarget="_blank" formnovalidate value="Get">
+        <br><br><input type="submit" formtarget="_blank" formnovalidate value="Post" formmethod="post">
+
+        
+    </form>
+    <hr><hr><hr>
+    
+    
+    <h4>Nowy formularz</h4>
+    
+    Dodawanie
+    <form oninput="wynik.value=parseInt(liczba1.value)+parseInt(liczba2.value)">
+        
+    <input type="number" id="liczba1" value=0>+
+    <input type="number" id="liczba2" value=0>=
+    <output name="wynik" for="liczba1 liczba2"></output>
+    </form>
+        
+        <br><br>
+    Mnożenie
+    <form oninput="wynik.value=parseInt(liczba1.value)*parseInt(liczba2.value)">
+        
+    <input type="number" id="liczba1" value=0>*
+    <input type="number" id="liczba2" value=0>=
+    <output name="wynik" for="liczba1 liczba2"></output>
+    </form>
+        <br><br>
+    
+    
+    <br><br><br><br><br><input type="submit" formtarget="_blank" formnovalidate value="Post" formmethod="post">
+
+<br><br><br>
+        
+    <audio src="../Muzyka/Rambo%20Soundtrack%20%20%20Its%20a%20long%20Road.mp3" loop>Rambo Soundtrack Its a long Road </audio><br>
+    <br>
+    <video src="../filmy/First%20Blood%20(1982)%20-%20Trailer%20(HD).mp4" controls preload="auto" width="640" height="320"  loop poster="../img/canada.png"></video>
+    <!--- Dodatkowe Atrybuty
+    type - "mp4"
+    codecs
+    -->
+
+</body>
+
+
+
+
+
+</html>

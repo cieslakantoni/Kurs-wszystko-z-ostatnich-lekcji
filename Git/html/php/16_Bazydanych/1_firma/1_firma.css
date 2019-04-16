@@ -1,0 +1,15 @@
+table, td, tr, th{
+  border: solid 1px green;
+  border-style:collapse;
+  padding: 10px;
+  margin:10px;
+  text-align: center;
+}
+
+.tytul{
+  background-color: lightgreen;
+}
+
+h3:hover{
+color: green;
+}

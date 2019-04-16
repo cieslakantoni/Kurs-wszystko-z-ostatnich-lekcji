@@ -1,0 +1,150 @@
+*{
+
+}
+body{
+  background-color: #73ddff;
+}
+
+table,tr,td{
+  border: solid 1px white;
+  border-collapse:
+  padding 10px;
+
+}
+/*
+#Jan {
+  vertical-align: text-top;
+}
+
+#Anna{
+  vertical-align: text-bottom;
+}
+#Pawel{
+vertical-align: baseline;
+}
+
+#Krtstian {
+  vertical-align:
+*/
+}
+#flagac{
+  width: 10px;
+  height: 10px;
+}
+.top{
+vertical-align: text-top;
+}
+#minipl{
+  width: 10px;
+  height: 10px;
+}
+.bot{
+vertical-align: text-bottom;
+}
+.baseline
+{
+  vertical-align:baseline;
+}
+#wciecie{
+  text-indent: 50px;
+  background-color:rgba(33, 167, 203, 0.57);
+}
+#wciecie2{
+  text-indent: 50%;
+  background-color: rgb(54, 160, 175);
+}
+
+.jeden{
+  color: aliceblue;
+  background-color: rgb(89, 203, 245);
+  text-shadow:2px 1px 0px black;
+}
+/*
+  2px - wielkosc przesuniecia cienia w poziomie
+  1px - wielkosc przesuniecia cienia w pionie
+  0px - stopien rozmazania cienia
+  black - kolor cienia
+*/
+.dwa{
+  color: aliceblue;
+  background-color: #59cbf5;
+  text-shadow:2px 1px 15px black;
+}
+.trzy{
+  color: aliceblue;
+  background-color: #4fbee6;
+  text-shadow:2px 5px 13px black;
+}
+.cztery{
+  color: aliceblue;
+  background-color: #48b1d6;
+  text-shadow:-1.5px -3px 0px black;
+}
+.piec{
+  color: aliceblue;
+  background-color: #43a2c2;
+  text-shadow:10px -10px 0px black;
+}
+
+p.linia::first-letter{
+  color: rgb(89, 255, 0);
+}
+
+p.linia::first-line{
+  color: rgb(0, 3, 255);
+  font-weight: bold;
+}
+
+
+p:link{
+  color: rgb(255, 0, 0);
+  text-decoration: none;
+}
+
+a:visited{
+  color:blue;
+}
+a:hover{
+  color: rgb(231, 184, 20);
+  text-decoration: underline;
+  text-shadow: 1px 1.5px 5px black;
+}
+
+a:active{
+  color: rgb(70, 179, 31);
+  text-shadow: 3px -3px 10 lightgreen;
+}
+
+input{
+  background-color: rgb(65, 194, 203);
+    padding:5px 30px 5px 10px;
+}
+/*
+5px - góra
+30px - prawa
+5px - dół
+10px - lewo
+
+*/
+input.submit{
+  background-color: rgb(53, 190, 194);
+  color: white;
+  padding: 10px 30px 10px 20px;
+  text-align: center;
+  text-shadow: 1px 1.5px 0px black;
+}
+input.submit:hover{
+background-color: rgb(31, 140, 150);
+}
+input.submit:active{
+  background-color: rgb(26, 88, 88);
+}
+
+input.text:focus{
+  background-color: rgb(47, 119, 129);
+  color: aliceblue;
+}
+
+p.abc,p.abcdef{
+background-color: rgb(18, 116, 138);
+}

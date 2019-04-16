@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta charset="utf-8">
+      <title> Formularz HTML</title>
+</head>
+
+<body>
+    <form method="post">
+    Imię:<input type="text" name="imie">
+    Nazwisko:<input type="text" name="nazwisko"><br><br>
+    E-mail:<input type="email" name="email"><br> <br>
+    Płeć:
+    <input type="radio" id="kobieta" name="plec" value="k">Kobieta
+    <label for="kobieta"></label>
+  
+    <input type="radio" id="mezczyzna" name="plec" value="m" checked>Mężczyzna
+    <label for="mezczyzna"></label><br><br>
+    
+    <textarea placeholder="Treść wiadomości" name="wiadomosc"></textarea><br>
+        
+ <select name="Wiek">
+            <optgroup label="wiek 18">
+                <option value="mniej" selected>Mniej niż 18</option>
+            </optgroup>
+     
+            <optgroup label="wiek 18">
+                <option value="wiecej" selected>Więcej 18</option>
+            </optgroup>
+        </select>
+        <br><br>
+        <input type="reset" name="reset" value="Wyczyść Formularz">
+        <input type="submit" name="wyslij" value="Wyślij">
+    </form>
+
+
+
+</body>
+
+
+
+
+
+</html>

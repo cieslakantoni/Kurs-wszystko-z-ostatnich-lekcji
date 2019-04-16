@@ -1,0 +1,12 @@
+#ferraro{
+  margin-left: 20px;
+list-style-image:url(pobrane.png);
+}
+#bmw{
+  margin-left: 20px;
+  list-style-image:url(bmw.gif);
+}
+#audi{
+  margin-left: 20px;
+  list-style-image:url(audi.png);
+}

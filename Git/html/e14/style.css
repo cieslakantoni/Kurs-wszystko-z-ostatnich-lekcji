@@ -1,0 +1,46 @@
+body{
+    font-family: Tahoma;
+}
+.topper {
+  background-color: #40271A;
+  color: white;
+  text-align: center;
+  hight:80px;
+  padding-top:0.5px;
+  padding-bottom: 6px;
+
+}
+.leftside {
+  background-color: #DBB29C;
+  height: 700px;
+  width: 40%;
+  float: left;
+}
+.rightside{
+  background-color:#FFE3D4 ;
+  width: 60%;
+  height: 700px;
+  float: left;
+}
+
+img{
+  width: 200px;
+  height: 300px;
+}
+.footer{
+  clear: both;
+  background-color: #40271A;
+  color: white;
+  text-align: right;
+}
+
+table, td {
+  color: black;
+  border-color: darkred;
+  border-style: dashed;
+  width: 500px;
+  margin: 10px;
+  text-align: center;
+  border: 1px dashed darkred;
+  column-span: 3;
+}

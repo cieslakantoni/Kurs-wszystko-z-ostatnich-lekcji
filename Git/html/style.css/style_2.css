@@ -1,0 +1,32 @@
+* {
+  font-family: sans-serif, arial, Arial Black;
+  color: darkorange;
+}
+
+h1{
+  color:yellow;
+
+}
+
+i {
+  color:black;
+}
+
+strong {
+  color:blue;
+}
+
+p b {
+  color: red !important;
+}
+
+p b {
+  color: brown;
+}
+
+p {
+  font-size: 100%;
+}
+p#opis {
+ font-size: 50%;
+}

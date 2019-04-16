@@ -1,0 +1,8 @@
+body{
+  width: auto;
+}
+
+#glosowanie, fieldset{
+  background-color: lightgray;
+  width: 25%;
+}

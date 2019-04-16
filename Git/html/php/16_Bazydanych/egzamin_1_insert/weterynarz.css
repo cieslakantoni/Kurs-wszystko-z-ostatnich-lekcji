@@ -1,0 +1,48 @@
+
+#banner{
+  background-color: rgb(105, 88, 89);
+  color: white;
+  font-size: 150%;
+  text-align: center;
+  height: 80px;
+}
+
+#lewy{
+  background-color: rgb(145,127,112);
+  width: 30%;
+  height: 600px;
+  float: left;
+}
+#srodkowy{
+  background-color: rgb(184, 168,169);
+  width: 50%;
+  height: 600px;
+  float: left;
+}
+#prawy{
+  background-color: rgba(145, 127,112);
+  width: 20%;
+  height: 600px;
+  float: left;
+}
+
+h2{
+  color: white;
+}
+
+img{
+  float: right;
+  margin-right: 10px;
+}
+
+table, tr, td{
+  border: solid 1px black;
+}
+
+p{
+  font-weight: bold;
+}
+
+a{
+  color: lightgreen;
+}

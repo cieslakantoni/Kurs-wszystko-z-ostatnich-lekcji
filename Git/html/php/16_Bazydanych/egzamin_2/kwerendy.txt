@@ -1,0 +1,18 @@
+Zapytanie nr 1 :
+SELECT z.imie, z.telefon, z.szczepienie, z.opis FROM zwierzeta as z;
+$sql = "SELECT z.imie, z.telefon, z.szczepienie, z.opis FROM zwierzeta as z";
+
+
+Zapytanie nr 2:
+SELECT z.imie, z.telefon, z.wlasciciel FROM zwierzeta as z WHERE rodzaj=1;
+$sql = "SELECT z.imie, z.telefon, z.wlasciciel FROM zwierzeta as z WHERE rodzaj=1";
+
+
+Zapytanie nr 3:
+SELECT z.imie, u.nazwa FROM zwierzeta as z INNER JOIN uslugi as u ON z.usluga_id=u.id;
+$sql = "SELECT z.imie, u.nazwa FROM zwierzeta as z INNER JOIN uslugi as u ON z.usluga_id=u.id";
+
+
+Zapytanie nr 4:
+SELECT AVG(cena) AS 'Średnia cena wszystkich usług' FROM `uslugi`
+$sql = "SELECT AVG(cena) AS \'Średnia cena wszystkich usług\' FROM `uslugi`";

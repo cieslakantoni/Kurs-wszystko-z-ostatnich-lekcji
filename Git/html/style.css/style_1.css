@@ -1,0 +1,65 @@
+body {
+        background-image: url(./../img/bg.jpg);
+        background-scroll;
+}
+
+h4,h1 {
+    color:rgb(205, 108, 29);
+    text-shadow:1.5px 1px black;
+    text-align: center
+}
+
+p{
+  color:rgb(189, 132, 46);
+  text-shadow:1.5px 1px black;
+  font-family: Arial Black;
+  text-align: center;
+}
+
+a:link{
+  color:rgb(204, 57, 11);
+}
+a:visited
+{
+  color:rgb(33, 193, 44);
+}
+a:hover{
+    color:rgb(145, 0, 0);
+    cursor: pointer;
+    text-decoration: underline;
+}
+a:active{
+  color:rgb(80, 10, 0);
+  background-color: rgba(255, 0, 0, 0.35);
+}
+a
+{text-decoration: none;}
+
+/*
+p - selektor
+color - własciwosci
+red - wartość
+*/
+
+
+
+
+
+/*Sekektor elementów dziecka*/
+li > a:link{
+  color:black;
+}
+
+/*Selektor elementu potomnego*/
+h1 > a:link{
+  color:darkorange;
+}
+/* Selektor elementu sąsiadującego bezpośrednio */
+
+h1 + p {
+
+}
+/*
+   "+" - nastepny po h1
+   "~" - wszystkie po h1
+*/

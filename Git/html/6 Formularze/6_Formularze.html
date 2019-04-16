@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta charset="utf-8">
+      <title>Formularze</title>
+<link rel="stylesheet" href="style.css/style_form.css">
+</head>
+
+<body>
+
+<!--Method post/get *get jest domyślnie-->
+ <form method="post">
+    <label for="login">
+    Login <input type="text" name="login">
+    </label><br>
+    <label>Hasło</label>
+      <input type="password" name="pass"><br>
+      <input type="submit" value="Wyślij">
+  </form>
+  <br>
+  <br>
+  <br>
+<!--WYBORY ;)-->
+  <fieldset>
+    <legend>Wybory</legend>
+    <form id="glosowanie" action="./6.1_Dziekujemy.html">
+  <h3>Wybory 2018</h3>
+  <label for="nick">Nick </label>
+  <input type="text" name="nick"><br>
+  <input type="radio" name="wybór" value="K">Kowal<br>
+  <input type="radio" name="wybór" value="B">Bułka<br>
+  <input type="radio" name="wybór" value="W">Wałęsa<br>
+  <input type="radio" name="wybór" value="Ko">Kot<br>
+  <input type="submit" value="Wyślij">
+    </form>
+  </fieldset>
+
+  <fieldset>
+    <form action="./6.1_Dziekujemy.html">
+
+      <input type="text" name="imie" id="imie" placeholder="Imie" title="Podaj swoje imię" pattern="[a-z]{2,15}" pattern="[A-z]" required><br>
+
+      <input type="text" name="nazwisko" id="nazwisko" placeholder="Nazwisko" required><br>
+
+      <input type="email" name="mail" id="mail" placeholder="Email" required><br>
+      <input type="number" name="wiek" placeholder="Podaj wiek" id="wiek" required><br>
+
+      <h4>Narodowość</h4>
+      <input type="radio" name="kraj" value="Polska" checked>Polska <br>
+      <input type="radio" name="kraj" value="Bialorus">Bialorus <br>
+      <input type="radio" name="kraj" value="Hiszpania">Hiszpania <br>
+            <input type="submit" name="przycisk" value="Zatwierdz">
+    </form>
+s
+
+
+  </fieldset>
+
+
+
+
+</body>
+
+</html>

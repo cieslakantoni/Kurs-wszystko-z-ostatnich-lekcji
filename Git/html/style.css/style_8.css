@@ -1,0 +1,33 @@
+body{
+
+  background: orange;
+  background-image: linear-gradient(to right top, #dc8648, #e89030, #ff8f04, #e48017, #ebae12);
+  color:rgb(51, 255, 0, 1);
+  text-shadow: 1px 1.5px 0px black;
+}
+
+}
+
+li{
+  background-color:rgb(254, 200, 11);
+  padding: 10;
+  border:solid;
+  display: inline;
+  margin: 10px;
+  float:inherit;}
+li.isbn{
+  display: none;
+}
+.hidden{
+  visibility: visible;
+}
+
+#autor{
+border: dotted;
+}
+
+.blok{
+  display: block;
+  list-style-type:lower-greek;
+  float: none;
+}

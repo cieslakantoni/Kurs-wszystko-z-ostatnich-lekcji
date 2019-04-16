@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>zdarzenia</title>
+  <style>
+    body {
+      background-color: rgb(197, 130, 30);
+      color:black;
+    }
+  </style>
+</head>
+  <body>
+    <img src="./chrome.png  " id="zdj1">
+    <!--<img src="./firefox.png" id="zdj2">
+    -->
+    <!--<button id="przycisk">Pokaż</button>
+    --><div id="blok"></div>
+    <script>
+
+          var przycisk = document.getElementById('przycisk');
+          var blok = document.getElementById('blok');
+
+
+          przycisk.addEventListener('click', function(){
+          blok.textContent += 'click';
+          });
+
+          przycisk.addEventListener('mousedown', function(){
+            blok.textContent += 'nacisniecie przycisku myszy';
+          });
+
+          przycisk.addEventListener('mouseup', function(){
+            blok.textContent += 'puszczenie przycisku myszy';
+          });
+
+          przycisk.addEventListener('mouseover', function(){
+            blok.textContent += 'najechanie myszką';
+          });
+
+          przycisk.addEventListener('mousemove', function(){
+            blok.textContent += 'ruszanie myszką po elemencie';
+          });
+
+          przycisk.addEventListener('mouseout', function(){
+            blok.textContent += 'opuszczenie elemetu';
+          });
+
+          przycisk.addEventListener('dblclick', function(){
+            blok.textContent += 'podwójneklikniecie';
+          });
+
+    </script>
+  </body>
+</html>

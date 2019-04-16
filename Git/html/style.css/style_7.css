@@ -1,0 +1,50 @@
+body
+{
+  background-color: grey;
+  color: orange;
+  text-align: center;
+  text-shadow: 1px 1.5px 0px black;
+}
+
+p
+{
+border: solid;
+
+}
+
+p.a
+{
+  border-width: 2px;
+  border-style: dashed;
+}
+
+p.b{
+  border-style: double;
+  border-width: thick;
+}
+
+p.c {
+  border-style:groove;
+  border-width: 1px 4px 10px 4px;
+}
+
+p.d{
+  border-top-width: thin;
+  border-right-width: medium;
+  border-left-width: 10px;
+  border-bottom-width: thick;
+  border-style: outset;
+}
+p.e{
+  border-style: ridge;
+}
+p.f{
+  border-style: dotted;
+  border-bottom-color: red;
+  border-top-color: green;
+  border-left-color: blue;
+  border-right-color: yellow;
+
+  padding:10px;
+  margin-left: 30px;
+}

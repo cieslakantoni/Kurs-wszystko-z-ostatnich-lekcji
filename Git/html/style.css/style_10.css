@@ -1,0 +1,24 @@
+body{
+
+  background: orange;
+  background-image: linear-gradient(to right top, #dc8648, #e89030, #ff8f04, #e48017, #ebae12);
+  color:rgb(51, 255, 0, 1);
+  text-shadow: 1px 1.5px 0px black;
+}
+#tab1 td,#tab2 td, #tab3 td{
+  border: 2px solid rgb(51, 255, 0, 1);
+  padding: 25px;
+}
+#tab2 {
+  empty-cells: hide;
+}
+#tab3 td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 25px;
+  margin-top:20px;
+}
+
+#tab3{
+  border-spacing: 20px;
+}

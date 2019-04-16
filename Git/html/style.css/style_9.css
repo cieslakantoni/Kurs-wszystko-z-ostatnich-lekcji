@@ -1,0 +1,22 @@
+p{
+  border: 3px solid black ;
+  padding: 20px; text-align:center;
+  max-width: 20px;
+}
+
+#jeden{
+  padding: 100px;
+  border: solid;
+}
+#dwa{
+  padding: 100px;
+  border-top-right-radius: 40px 40px;
+
+
+}
+#trzy{
+overflow: auto;
+padding: 100px;
+border-radius: 50%;
+width: 10px;
+}
